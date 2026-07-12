@@ -152,7 +152,7 @@ export default function Services() {
             Engineering the Future of Business
           </h3>
           <p className="font-body text-on-surface-variant text-base sm:text-lg italic max-w-3xl leading-relaxed">
-            "Our mission is to empower global enterprises by bridging the gap between complex technical challenges and elegant, scalable digital solutions. We don't just build software; we engineer competitive advantages."
+            &quot;Our mission is to empower global enterprises by bridging the gap between complex technical challenges and elegant, scalable digital solutions. We don&apos;t just build software; we engineer competitive advantages.&quot;
           </p>
           <div className="absolute left-1/2 bottom-0 -translate-x-1/2 w-32 line-fade-gold"></div>
         </div>

@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&family=Hanken+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600;700&family=Hanken+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
   --background: #0f1414;
@@ -13,7 +14,7 @@
   --color-primary-container: #23a19a;
   --color-secondary: #fbba6b;
   --color-on-secondary: #472a00;
-  
+
   --color-background-custom: #0f1414;
   --color-on-background: #dee4e2;
   --color-surface-custom: #0f1414;
@@ -22,7 +23,7 @@
   --color-outline: #869391;
   --color-outline-variant: #3d4948;
   --color-surface-variant: #303635;
-  
+
   --color-surface-container: #1b2120;
   --color-surface-container-high: #262b2a;
   --color-surface-container-highest: #303635;
@@ -90,7 +91,8 @@ body {
 }
 
 /* Smooth Scrolling styles */
-html.lenis, html.lenis body {
+html.lenis,
+html.lenis body {
   height: auto;
 }
 

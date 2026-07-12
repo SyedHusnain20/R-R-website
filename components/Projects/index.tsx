@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { ArrowUpRight, CheckCircle2 } from "lucide-react";
-import { motion } from "framer-motion";
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 

@@ -4,7 +4,7 @@ export const contactSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Invalid email address." }),
   projectType: z.enum(["AI Automation", "Custom Development", "Data Analytics", "Digital Strategy"], {
-    errorMap: () => ({ message: "Please select a valid project type." }),
+    error: "Please select a valid project type.",
   }),
   message: z.string().min(10, { message: "Message must be at least 10 characters." }),
 });

@@ -44,7 +44,7 @@ export default function Contact() {
           message: res.message || "An unexpected error occurred.",
         });
       }
-    } catch (e) {
+    } catch (_e) {
       setSubmitResult({
         success: false,
         message: "Network error occurred. Please try again.",
@@ -61,7 +61,7 @@ export default function Contact() {
         <div className="flex flex-col justify-between">
           <div>
             <h2 className="font-headline text-3xl sm:text-4xl md:text-5xl mb-8 uppercase font-bold tracking-tight">
-              Let's Build the Future
+              Let&apos;s Build the Future
             </h2>
             <p className="text-on-surface-variant font-body text-base sm:text-lg mb-12 leading-relaxed">
               Ready to initiate your digital transformation? Our engineering team is standing by to audit your requirements.
