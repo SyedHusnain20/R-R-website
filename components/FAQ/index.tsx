@@ -8,7 +8,7 @@ export default function FAQ() {
   const faqs = [
     {
       q: "What tech stack do you specialize in?",
-      a: "We are language-agnostic but favor high-performance stacks including React/Next.js, Rust, Python, and Go, deployed primarily on AWS or GCP infrastructure.",
+      a: "We are language-agnostic but favor high-performance stacks including React/Next.js, Python, and FastAPI, deployed primarily on AWS or GCP infrastructure.",
     },
     {
       q: "Do you work with startups or only enterprises?",
@@ -16,7 +16,7 @@ export default function FAQ() {
     },
     {
       q: "What is your typical project timeline?",
-      a: "Initial MVP builds typically span 6-10 weeks, while full-scale digital transformations are ongoing partnerships structured in 3-month milestones.",
+      a: "Depends upon project's complexity, Lets discuss you needs, and find out the appropriate timeline for your project.",
     },
   ];
 

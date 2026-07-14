@@ -1,7 +1,17 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { BrainCircuit, AreaChart, Terminal, Cpu, Target } from "lucide-react";
+import {
+  BrainCircuit,
+  AreaChart,
+  Terminal,
+  Cpu,
+  Target,
+  Bot,
+  Globe,
+  Code2,
+  Workflow,
+} from "lucide-react";
 import { motion } from "framer-motion";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -77,6 +87,26 @@ export default function Services() {
       desc: "Modernizing legacy systems and migrating infrastructure to secure, high-performance cloud environments.",
       icon: <Cpu className="text-primary w-6 h-6" />,
     },
+    {
+      title: "Custom Chatbots",
+      desc: "Conversational AI agents tailored to your business logic, trained on your data and voice.",
+      icon: <Bot className="text-primary w-6 h-6" />,
+    },
+    {
+      title: "Web Applications",
+      desc: "High-performance, responsive web platforms engineered for speed, SEO, and seamless UX.",
+      icon: <Globe className="text-primary w-6 h-6" />,
+    },
+    {
+      title: "Custom Software",
+      desc: "Bespoke software solutions designed around your exact workflows, not the other way around.",
+      icon: <Code2 className="text-primary w-6 h-6" />,
+    },
+    {
+      title: "AI Integration",
+      desc: "Embedding intelligent automation directly into your existing tools, CRMs, and pipelines.",
+      icon: <Workflow className="text-primary w-6 h-6" />,
+    },
   ];
 
   const protocolSteps = [
@@ -145,14 +175,20 @@ export default function Services() {
         </div>
 
         {/* Mission statement overlay block */}
-        <div id="mission" className="py-20 mb-32 border-y border-outline-variant/20 relative flex flex-col items-center text-center">
+        <div
+          id="mission"
+          className="py-20 mb-32 border-y border-outline-variant/20 relative flex flex-col items-center text-center"
+        >
           <div className="absolute left-1/2 top-0 -translate-x-1/2 w-32 line-fade"></div>
           <Target className="text-primary w-12 h-12 mb-6 animate-pulse" />
           <h3 className="font-headline text-2xl sm:text-3xl uppercase font-bold tracking-tight mb-6">
             Engineering the Future of Business
           </h3>
           <p className="font-body text-on-surface-variant text-base sm:text-lg italic max-w-3xl leading-relaxed">
-            &quot;Our mission is to empower global enterprises by bridging the gap between complex technical challenges and elegant, scalable digital solutions. We don&apos;t just build software; we engineer competitive advantages.&quot;
+            &quot;Our mission is to empower global enterprises by bridging the gap
+            between complex technical challenges and elegant, scalable digital
+            solutions. We don&apos;t just build software; we engineer
+            competitive advantages.&quot;
           </p>
           <div className="absolute left-1/2 bottom-0 -translate-x-1/2 w-32 line-fade-gold"></div>
         </div>
@@ -163,12 +199,18 @@ export default function Services() {
             The Engineering Protocol
           </h2>
 
-          <div ref={protocolRef} className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-6">
+          <div
+            ref={protocolRef}
+            className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-6"
+          >
             {/* Connecting Horizontal Line in Desktop */}
             <div className="absolute top-6 left-[10%] right-[10%] h-[1px] bg-outline-variant/30 hidden lg:block -z-10"></div>
 
             {protocolSteps.map((step, idx) => (
-              <div key={idx} className="protocol-step relative flex flex-col items-start group">
+              <div
+                key={idx}
+                className="protocol-step relative flex flex-col items-start group"
+              >
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   className="w-12 h-12 bg-surface-container-highest border border-primary text-primary flex items-center justify-center rounded-sm mb-6 font-mono-custom text-xs font-semibold group-hover:bg-primary group-hover:text-on-primary transition-all duration-300 shadow-md shadow-black/20 cursor-default"

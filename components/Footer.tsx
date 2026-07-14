@@ -57,12 +57,27 @@ export default function Footer() {
                 </li>
                 <li>
                   <a className="hover:text-primary transition-colors" href="#">
-                    Cloud Migration
+                    Custom Chatbots
                   </a>
                 </li>
                 <li>
                   <a className="hover:text-primary transition-colors" href="#">
-                    Enterprise Web
+                    Digital solutions
+                  </a>
+                </li>
+                <li>
+                  <a className="hover:text-primary transition-colors" href="#">
+                    Data Analysis
+                  </a>
+                </li>
+                <li>
+                  <a className="hover:text-primary transition-colors" href="#">
+                    Custom Softwares
+                  </a>
+                </li>
+                <li>
+                  <a className="hover:text-primary transition-colors" href="#">
+                    Web Applications
                   </a>
                 </li>
               </ul>
@@ -115,7 +130,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col sm:flex-row justify-between items-center pt-10 border-t border-outline-variant/10 text-on-surface-variant font-mono-custom text-[11px] opacity-60 gap-4">
-          <p>© 2024 R&R Digital Solutions. Engineering the Future.</p>
+          <p>© 2026 R&R Digital Solutions. Engineering the Future.</p>
           <div className="flex gap-8">
             <span>Designed for High Performance</span>
             <span>System Status: Optimal</span>

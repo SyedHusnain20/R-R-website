@@ -78,14 +78,14 @@ export default function About() {
             <div className="text-center md:text-left">
               <div className="w-32 h-32 mx-auto md:mx-0 mb-6 rounded-full border-2 border-secondary p-1 overflow-hidden bg-surface-container-low">
                 <img
-                  className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer"
-                  alt="Founder A"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAS-nHzEMJZq9djRtdn82nNzOwMA5J2R9_pdyvV4juXUgKz9WfQykXh95rPjjeD8-xCPOjdBB8U3AUiPYJcbbtI7is7gu1ClO9Zh1AFpw68Ly7HdIImczFPLeCgPlRyE7XBnaYGZKnI4dmeaJmd0LE2eMd91cJte2oD14Bu6YQnhR6RxWURXRFjl4p9nrTSY9QKfy6fXiXTcEkYy3Yct9VXzYRVT8tkSoq8ap9nkLzVwyfDm60iwf15aFFWPch55eKrFIKViOaPLhMQ"
-                />
+                className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer"
+                alt="Sheroz Khan"
+                src="/images/sheroz.jpg"
+              />
               </div>
-              <h4 className="font-headline text-lg uppercase font-bold text-on-surface">Founder A</h4>
+              <h4 className="font-headline text-lg uppercase font-bold text-on-surface">Sheroz Khan</h4>
               <p className="font-mono-custom text-xs text-secondary tracking-wider font-semibold">
-                Chief Strategy Officer
+                Chief Strategy/Finance Officer
               </p>
             </div>
 
@@ -93,13 +93,13 @@ export default function About() {
               <div className="w-32 h-32 mx-auto md:mx-0 mb-6 rounded-full border-2 border-primary p-1 overflow-hidden bg-surface-container-low">
                 <img
                   className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer"
-                  alt="Founder B"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWKWQKjVL0yaLe1FszZBFyGricRSF4sEEm0sXUOUHkV-rUBtf_COwJcripOk837oedkaJU03Yo5zRFTqS8mqPXpqpI54fwi-Ty4BpQLS3xZHbHURzYK04--9MC6B8uK8yjL_cyVaInD8gAo9wJFs6P_z5OmOf5etz7TSEUlkFTVFupgRlFQr1l8jw_ERDc3Ub23kymyAZ4uq5IRPP7mmvcnvkUaeIuZcsXBv_cvw6Z9zjn1ZMjsjmj32Bws79yWJBTAXeInhN94JLl"
+                  alt="Hasnain Zainulabdin"
+                  src="/hasnain-portrait.png"
                 />
               </div>
-              <h4 className="font-headline text-lg uppercase font-bold text-on-surface">Founder B</h4>
+              <h4 className="font-headline text-lg uppercase font-bold text-on-surface">Hasnain Zainulabdin</h4>
               <p className="font-mono-custom text-xs text-primary tracking-wider font-semibold">
-                Chief Technology Officer
+                Chief Technology/Production Officer
               </p>
             </div>
           </div>

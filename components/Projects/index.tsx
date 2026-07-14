@@ -36,11 +36,11 @@ export default function Projects() {
 
   const cases = [
     {
-      title: "Quantum Ledger Analytics",
-      desc: "Real-time fraud detection engine processing 50k+ transactions per second with 99.9% accuracy.",
+      title: "Islamic Finance Assistant AI",
+      desc: "A chatbot having agentic featres can get real-time data of stocks, gold, silver etc. Give fully analyzed suggestions",
       img: "https://lh3.googleusercontent.com/aida-public/AB6AXuC3V2D1liB7TBzchWrDGRmbBfhaUXpET6T9vs5gv6l8wlKLl4VR_Uv0W51c-sWwlfu7QkdyQFwmGxon-ZTr1cDHjYCuQK84KwGJEnHZvv5SwoZn3KZRXGtZhSvKUVT__Qc1f1_LNgzfYkKyLf1YqSjoq2796JpckHTfdLRzjNBmFrXurINZzETMLjRVukWzfHsadDIlUZz7j1WAGmRn3Nr_PTf8ERHpX7INfEjB1kyTnMQzPU475-Lyvb7kIGdG_u5dwv-vfR6EGWO5",
       tag: "FinTech",
-      techs: ["Python", "Kubernetes", "AWS", "TensorFlow"],
+      techs: ["Python", "LLM", "RAG", "TensorFlow", "FastAPI", "STT-TTS"],
       borderColor: "hover:border-secondary",
       glowColor: "hover:shadow-[0_0_30px_rgba(251,186,107,0.15)]",
       badgeClass: "text-secondary bg-on-secondary/10 border-secondary/20",
