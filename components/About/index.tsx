@@ -71,7 +71,7 @@ export default function About() {
             Guided by Technical Mastery
           </h2>
           <p className="text-on-surface-variant font-body text-base sm:text-lg mb-12 leading-relaxed">
-            Founded by industry veterans with a combined 20+ years in systems architecture and digital product strategy. R&R Digital Solutions was born out of a desire to bring high-level engineering precision to companies of all sizes.
+            Founded by industry veterans with a combined 10+ years in systems architecture and digital product strategy. R&R Digital Solutions was born out of a desire to bring high-level engineering precision to companies of all sizes.
           </p>
 
           {/* Founders Grid */}
@@ -81,7 +81,7 @@ export default function About() {
                 <img
                 className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer"
                 alt="Sheroz Khan"
-                src="/images/sheroz.jpg"
+                src="/sheroz.png"
               />
               </div>
               <h4 className="font-headline text-lg uppercase font-bold text-on-surface">Sheroz Khan</h4>

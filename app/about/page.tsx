@@ -14,7 +14,7 @@ export default function AboutPage() {
       name: "Sheroz Khan",
       role: "Chief Strategy/Finance Officer",
       accent: "secondary",
-      img: "/images/sheroz.jpg",
+      img: "sheroz.png",
       bio: "Sheroz leads strategy, client partnerships, and the financial backbone of R&R Digital Solutions — making sure every engagement is scoped clearly, priced fairly, and delivered with a clear return on investment for the client.",
     },
     {
