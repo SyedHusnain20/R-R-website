@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -22,11 +23,11 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { label: "Mission", href: "#mission" },
-    { label: "Services", href: "#services" },
-    { label: "Projects", href: "#projects" },
-    { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    { label: "Mission", href: "/#mission" },
+    { label: "Services", href: "/#services" },
+    { label: "Projects", href: "/#projects" },
+    { label: "About", href: "/#about" },
+    { label: "Contact", href: "/#contact" },
   ];
 
   return (
@@ -39,7 +40,7 @@ export default function Header() {
             : "py-5 bg-background-custom/80 backdrop-blur-sm border-transparent"
         )}
       >
-        <div className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3">
           <img
             alt="R&R Logo"
             className="h-10 w-auto"
@@ -48,18 +49,18 @@ export default function Header() {
           <span className="font-headline font-bold text-lg md:text-xl tracking-tighter text-primary">
             R&R Digital Solutions
           </span>
-        </div>
+        </Link>
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.label}
               className="text-on-surface-variant hover:text-primary transition-colors duration-300 font-mono-custom text-xs uppercase tracking-wider"
               href={link.href}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -91,14 +92,14 @@ export default function Header() {
           >
             <div className="flex flex-col gap-5 mt-10">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.label}
                   onClick={() => setMobileMenuOpen(false)}
                   className="text-on-surface hover:text-primary transition-colors font-headline text-2xl uppercase font-semibold"
                   href={link.href}
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
             </div>
             <button

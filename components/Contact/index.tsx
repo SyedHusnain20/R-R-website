@@ -119,7 +119,7 @@ export default function Contact() {
                     Email Inquiries
                   </p>
                   <a
-                    href="mailto:hello@rr-solutions.tech"
+                    href="mailto:hasnainzainulabdin@gmail.com"
                     className="font-headline text-lg uppercase font-semibold text-on-surface hover:text-primary transition-colors"
                   >
                     hello@rr-solutions.tech
@@ -135,7 +135,7 @@ export default function Contact() {
               </p>
               <div className="flex items-center gap-4">
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/company/r&r-digital_solutions"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -144,7 +144,7 @@ export default function Contact() {
                   <LinkedInIcon className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/share/1BXWa6tvAP/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
@@ -153,7 +153,7 @@ export default function Contact() {
                   <FacebookIcon className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/rr_digitalsolution/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"

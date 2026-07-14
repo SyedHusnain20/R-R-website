@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "R&R Digital Solutions | Engineering the Future",
@@ -21,9 +23,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark scroll-smooth">
+    <html lang="en" className="dark scroll-smooth" suppressHydrationWarning>
       <body className="antialiased selection:bg-primary/30 selection:text-primary">
-        {children}
+        <div className="flex flex-col min-h-screen bg-background-custom text-on-background selection:bg-primary/20">
+          <Header />
+          <main className="flex-grow">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

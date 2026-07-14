@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Link from "next/link";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -103,6 +104,13 @@ export default function About() {
               </p>
             </div>
           </div>
+
+          <Link
+            href="/about"
+            className="inline-flex items-center gap-2 mt-10 text-primary font-semibold hover:underline font-mono-custom text-xs uppercase tracking-widest"
+          >
+            Meet the Full Team →
+          </Link>
         </div>
 
         {/* Right Column: Visual Layout & Counters */}

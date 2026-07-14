@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Share2, Network, Users } from "lucide-react";
 
 export default function Footer() {
@@ -88,9 +89,9 @@ export default function Footer() {
               </h6>
               <ul className="space-y-4 font-mono-custom text-xs text-on-surface-variant">
                 <li>
-                  <a className="hover:text-primary transition-colors" href="#">
+                  <Link className="hover:text-primary transition-colors" href="/about">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a className="hover:text-primary transition-colors" href="#">
@@ -110,19 +111,19 @@ export default function Footer() {
               </h6>
               <ul className="space-y-4 font-mono-custom text-xs text-on-surface-variant">
                 <li>
-                  <a className="hover:text-primary transition-colors" href="#">
+                  <Link className="hover:text-primary transition-colors" href="/privacy-policy">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="hover:text-primary transition-colors" href="#">
-                    Terms of Service
-                  </a>
+                  <Link className="hover:text-primary transition-colors" href="/terms">
+                    Terms &amp; Conditions
+                  </Link>
                 </li>
                 <li>
-                  <a className="hover:text-primary transition-colors" href="#">
+                  <Link className="hover:text-primary transition-colors" href="/cookie-policy">
                     Cookie Policy
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
