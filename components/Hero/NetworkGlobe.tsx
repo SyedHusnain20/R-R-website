@@ -25,7 +25,7 @@ function GlobeContent() {
   // Generate points on a sphere
   const { positions, linesGeometry } = useMemo(() => {
     const pointCount = 200;
-    const r = 2.2;
+    const r = 2.6;
     const pos = new Float32Array(pointCount * 3);
     const lineIndices: number[] = [];
 
@@ -51,7 +51,7 @@ function GlobeContent() {
       for (let j = i + 1; j < pointCount; j++) {
         const p2 = new THREE.Vector3(pos[j * 3], pos[j * 3 + 1], pos[j * 3 + 2]);
         const dist = p1.distanceTo(p2);
-        if (dist < 0.95 && connections < 3) {
+        if (dist < 1.12 && connections < 3) {
           lineIndices.push(i, j);
           connections++;
         }
@@ -119,7 +119,7 @@ function GlobeContent() {
 
       {/* Core Glowing Mesh */}
       <mesh>
-        <sphereGeometry args={[2.0, 16, 16]} />
+        <sphereGeometry args={[2.36, 16, 16]} />
         <meshBasicMaterial
           color="#159a93"
           wireframe={true}
@@ -131,7 +131,7 @@ function GlobeContent() {
       {/* Orbit Rings representing satellites */}
       <group ref={orbitalRef}>
         <mesh rotation={[Math.PI / 2, 0, 0]}>
-          <ringGeometry args={[2.5, 2.52, 64]} />
+          <ringGeometry args={[2.95, 2.97, 64]} />
           <meshBasicMaterial
             color="#fbba6b"
             side={THREE.DoubleSide}
@@ -140,7 +140,7 @@ function GlobeContent() {
           />
         </mesh>
         {/* Small satellite indicator */}
-        <mesh position={[2.51, 0, 0]}>
+        <mesh position={[2.96, 0, 0]}>
           <sphereGeometry args={[0.04, 8, 8]} />
           <meshBasicMaterial color="#fbba6b" />
         </mesh>
@@ -159,9 +159,9 @@ export default function NetworkGlobe() {
   if (!mounted) return null;
 
   return (
-    <div className="w-full h-full min-h-[400px] md:min-h-[500px]">
+    <div className="w-full h-full">
       <Canvas
-        camera={{ position: [0, 0, 5.5], fov: 60 }}
+        camera={{ position: [0, 0, 6.0], fov: 60 }}
         gl={{ antialias: true, alpha: true }}
       >
         <ambientLight intensity={0.5} />

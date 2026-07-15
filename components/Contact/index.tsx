@@ -289,10 +289,10 @@ export default function Contact() {
               {isSubmitting ? (
                 <>
                   <Loader2 size={16} className="animate-spin" />
-                  Transmitting...
+                  Submitting...
                 </>
               ) : (
-                "Transmit Request"
+                "Submit Request"
               )}
             </button>
           </form>

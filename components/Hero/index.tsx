@@ -61,9 +61,9 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#0A1A1E] to-[#0D2126]"></div>
       </div>
 
-      <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full">
+      <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch w-full">
         {/* Left Column: Information & CTAs */}
-        <div className="lg:col-span-7 flex flex-col items-start text-left">
+        <div className="lg:col-span-6 flex flex-col items-start justify-center text-left">
           <div
             ref={badgeRef}
             className="inline-block border border-primary/30 px-4 py-1 mb-6 rounded-full bg-surface-container-lowest/50 backdrop-blur-sm"
@@ -108,9 +108,9 @@ export default function Hero() {
         {/* Right Column: 3D Globe Visualization */}
         <div
           ref={globeContainerRef}
-          className="lg:col-span-5 w-full flex items-center justify-center relative"
+          className="lg:col-span-6 w-full h-[420px] sm:h-[520px] lg:h-[75vh] lg:max-h-[780px] flex items-center justify-center relative"
         >
-          <div className="absolute w-[120%] h-[120%] bg-radial from-primary/10 to-transparent blur-3xl rounded-full -z-10 pointer-events-none"></div>
+          <div className="absolute w-[130%] h-[130%] bg-radial from-primary/10 to-transparent blur-3xl rounded-full -z-10 pointer-events-none"></div>
           <NetworkGlobe />
         </div>
       </div>

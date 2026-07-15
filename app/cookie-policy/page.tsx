@@ -62,7 +62,7 @@ export default function CookiePolicyPage() {
         <h2 className={h2}>6. Contact Us</h2>
         <p className={p}>
           Questions about this Cookie Policy can be sent to{" "}
-          <a href="mailto:contact@rrdigitalsolutions.org" className="text-primary hover:underline">
+          <a href="mailto:hasnainzainulabdin@gmail.com" className="text-primary hover:underline">
             contact@rrdigitalsolutions.org
           </a>
           .

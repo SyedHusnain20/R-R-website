@@ -102,7 +102,8 @@ export default function PrivacyPolicyPage() {
         <h2 className={h2}>10. Contact Us</h2>
         <p className={p}>
           If you have questions about this Privacy Policy or how your information is handled, contact us at{" "}
-          <a href="mailto:contact@rrdigitalsolutions.org" className="text-primary hover:underline">
+          <a href="mailto:hasnainzainulabdin@gmail.com" 
+            className="text-primary hover:underline">
             contact@rrdigitalsolutions.org
           </a>
           .

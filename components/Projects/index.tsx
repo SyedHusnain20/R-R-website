@@ -79,7 +79,7 @@ export default function Projects() {
       title: "5S Digitization & QR Audit System",
       desc: "A digitized material-addressing audit system built for a live manufacturing floor — QR codes on every rack trigger a mobile Microsoft Forms audit, with Power Automate routing real-time discrepancy alerts over Outlook.",
       icons: [QrCode, ClipboardCheck],
-      tag: "Process Automation",
+      tag: "Business Process Automation",
       techs: ["QR Code", "Microsoft Forms", "Power Automate", "Outlook API"],
       borderColor: "hover:border-primary",
       glowColor: "hover:shadow-[0_0_30px_rgba(105,216,208,0.15)]",

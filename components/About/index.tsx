@@ -84,9 +84,9 @@ export default function About() {
                 src="/sheroz.png"
               />
               </div>
-              <h4 className="font-headline text-lg uppercase font-bold text-on-surface">Sheroz Khan</h4>
+              <h4 className="font-headline text-lg uppercase font-bold text-on-surface">Founder</h4>
               <p className="font-mono-custom text-xs text-secondary tracking-wider font-semibold">
-                Chief Strategy/Finance Officer
+                Sheroz Khan
               </p>
             </div>
 
@@ -98,9 +98,9 @@ export default function About() {
                   src="/hasnain-portrait.png"
                 />
               </div>
-              <h4 className="font-headline text-lg uppercase font-bold text-on-surface">Hasnain Zainulabdin</h4>
+              <h4 className="font-headline text-lg uppercase font-bold text-on-surface">Co-Founder</h4>
               <p className="font-mono-custom text-xs text-primary tracking-wider font-semibold">
-                Chief Technology/Production Officer
+                Hasnain Zainulabdin
               </p>
             </div>
           </div>

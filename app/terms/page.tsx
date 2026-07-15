@@ -100,7 +100,7 @@ export default function TermsPage() {
         <h2 className={h2}>10. Contact Us</h2>
         <p className={p}>
           Questions about these Terms can be sent to{" "}
-          <a href="mailto:contact@rrdigitalsolutions.org" className="text-primary hover:underline">
+          <a href="mailto:hasnainzainulabdin@gmail.com" className="text-primary hover:underline">
             contact@rrdigitalsolutions.org
           </a>
           .
