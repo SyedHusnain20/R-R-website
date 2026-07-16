@@ -62,8 +62,12 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch w-full">
-        {/* Left Column: Information & CTAs */}
-        <div className="lg:col-span-6 flex flex-col items-start justify-center text-left">
+        {/* Left Column: Information & CTAs.
+            On phones/tablets this and the globe column both sit in the same
+            grid cell (col-start-1 row-start-1) so the globe renders as a
+            faint layer behind the text instead of taking its own scroll
+            space. From lg (1024px) up they split back into two columns. */}
+        <div className="col-start-1 row-start-1 lg:col-start-auto lg:row-start-auto z-10 lg:col-span-6 flex flex-col items-start justify-center text-left">
           <div
             ref={badgeRef}
             className="inline-block border border-primary/30 px-4 py-1 mb-6 rounded-full bg-surface-container-lowest/50 backdrop-blur-sm"
@@ -105,10 +109,13 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right Column: 3D Globe Visualization */}
+        {/* Right Column: 3D Globe Visualization.
+            Mobile/tablet: shares the text's grid cell, low opacity,
+            pointer-events-none so it never blocks taps/scrolling.
+            lg+: reverts to its own full-height column at full opacity. */}
         <div
           ref={globeContainerRef}
-          className="lg:col-span-6 w-full h-[420px] sm:h-[520px] lg:h-[75vh] lg:max-h-[780px] flex items-center justify-center relative"
+          className="col-start-1 row-start-1 lg:col-start-auto lg:row-start-auto z-0 opacity-[0.16] sm:opacity-20 lg:opacity-100 pointer-events-none lg:pointer-events-auto lg:col-span-6 w-full h-[340px] sm:h-[420px] lg:h-[75vh] lg:max-h-[780px] flex items-center justify-center relative"
         >
           <div className="absolute w-[130%] h-[130%] bg-radial from-primary/10 to-transparent blur-3xl rounded-full -z-10 pointer-events-none"></div>
           <NetworkGlobe />

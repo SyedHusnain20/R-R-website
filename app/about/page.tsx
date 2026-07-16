@@ -60,12 +60,12 @@ export default function AboutPage() {
           About R&amp;R Digital Solutions
         </h1>
         <p className="text-on-surface-variant font-body text-base sm:text-lg leading-relaxed max-w-3xl">
-          "R&R Digital Solutions is a two-person engineering studio dedicated to helping businesses modernize through AI, 
-           automation, and custom software. As more organizations embrace digital transformation, 
-           they need reliable technology solutions that streamline operations without sacrificing quality, performance, or scalability. 
-           We specialize in AI chatbots, business automation, full-stack development, and data analytics, delivering robust,
-           production-ready solutions that solve real business challenges and create lasting value."        
-          </p>
+          &quot;R&amp;R Digital Solutions is a two-person engineering studio dedicated to helping businesses modernize through AI,
+          automation, and custom software. As more organizations embrace digital transformation,
+          they need reliable technology solutions that streamline operations without sacrificing quality, performance, or scalability.
+          We specialize in AI chatbots, business automation, full-stack development, and data analytics, delivering robust,
+          production-ready solutions that solve real business challenges and create lasting value.&quot;
+        </p>
       </section>
 
       {/* Founders */}

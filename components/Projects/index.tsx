@@ -139,14 +139,14 @@ export default function Projects() {
   ];
 
   return (
-    <section ref={containerRef} id="projects" className="py-24 max-w-[1280px] mx-auto px-5 md:px-[64px]">
+    <section ref={containerRef} id="projects" className="py-24 max-w-[1280px] mx-auto px-5 md:px-8 lg:px-[64px]">
       {/* Title */}
       <h2 className="font-headline text-3xl sm:text-4xl md:text-5xl mb-16 uppercase border-l-4 border-secondary pl-6 font-bold tracking-tight">
         Technical Case Studies
       </h2>
 
       {/* Grid of Flagship Case Studies */}
-      <div ref={triggerRef} className="grid grid-cols-1 lg:grid-cols-2 gap-[24px] mb-[24px]">
+      <div ref={triggerRef} className="grid grid-cols-1 md:grid-cols-2 gap-[24px] mb-[24px]">
         {cases.map((project, idx) => (
           <div
             key={idx}

@@ -83,8 +83,8 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-32 px-5 md:px-[64px] max-w-[1280px] mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
+    <section id="contact" className="py-32 px-5 md:px-8 lg:px-[64px] max-w-[1280px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24">
         {/* Left Column: Office Meta & Location Map */}
         <div className="flex flex-col">
           <div>
@@ -162,7 +162,7 @@ export default function Contact() {
                   <InstagramIcon className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://wa.me/"
+                  href="https://wa.me/923343653550`"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WhatsApp"
@@ -185,7 +185,7 @@ export default function Contact() {
         </div>
 
         {/* Right Column: Contact Form */}
-        <div className="glass-card p-8 sm:p-12 rounded-md shadow-2xl shadow-black/45">
+        <div className="glass-card p-6 sm:p-8 lg:p-12 rounded-md shadow-2xl shadow-black/45">
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             {/* Full Name */}
             <div className="space-y-2">
