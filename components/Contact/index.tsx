@@ -206,11 +206,11 @@ export default function Contact() {
             {/* Company Email */}
             <div className="space-y-2">
               <label className="font-mono-custom text-xs text-primary uppercase font-semibold tracking-wider">
-                Company Email
+                Your contact, Any
               </label>
               <input
                 type="email"
-                placeholder="john@company.com"
+                placeholder="Email or Whastapp number"
                 {...register("email")}
                 className="w-full bg-surface-container-high border-b-2 border-primary focus:border-secondary focus:ring-0 text-on-surface p-4 transition-colors border-t-0 border-l-0 border-r-0 outline-none rounded-t-sm"
               />

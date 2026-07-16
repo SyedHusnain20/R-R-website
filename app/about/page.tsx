@@ -15,14 +15,14 @@ export default function AboutPage() {
       role: "Chief Strategy/Finance Officer",
       accent: "secondary",
       img: "sheroz.png",
-      bio: "Sheroz leads strategy, client partnerships, and the financial backbone of R&R Digital Solutions — making sure every engagement is scoped clearly, priced fairly, and delivered with a clear return on investment for the client.",
+      bio:  "Engineer Sheroz leads strategy, client partnerships, and business operations at R&R Digital Solutions, ensuring every project is aligned with client goals and delivers measurable value. With a Bachelor's degree in Industrial Engineering from Mehran University of Engineering & Technology and professional experience at Dawlance (Beko) and Haleon, he brings expertise in process optimization, digital transformation, data analytics, and operational excellence. His ability to bridge business strategy with technology helps clients adopt smarter, more efficient solutions while ensuring every engagement is scoped clearly, executed efficiently, and built for long-term success.",
     },
     {
       name: "Hasnain Zainulabdin",
       role: "Chief Technology/Production Officer",
       accent: "primary",
       img: "/hasnain-portrait.png",
-      bio: "Hasnain leads engineering and production at R&R — designing and building the RAG chatbots, FastAPI backends, and automation pipelines the agency ships for clients, with a background in Software Engineering and applied AI/Data Science.",
+      bio: "Engineer Hasnain leads engineering, AI strategy, and technical delivery at R&R Digital Solutions, designing intelligent software solutions that solve complex business challenges. With a Bachelor's degree in Software Engineering from the University of Sindh and specialized 1-year training program in AI & Data Science from SMIT, he brings expertise in AI chatbots, RAG systems, FastAPI, automation, and full-stack development. He has led the development of flagship platforms including ShariahEase, QanoonDaan, and Raabta, delivering scalable, production-ready solutions that help businesses accelerate their digital transformation.",
     },
   ];
 
@@ -60,10 +60,12 @@ export default function AboutPage() {
           About R&amp;R Digital Solutions
         </h1>
         <p className="text-on-surface-variant font-body text-base sm:text-lg leading-relaxed max-w-3xl">
-          R&amp;R Digital Solutions is a two-person engineering studio built around a simple idea: bring senior-level
-          technical execution — AI chatbots, automation, full-stack development, and data analytics — to businesses
-          that don&apos;t want to compromise on quality to get it.
-        </p>
+          "R&R Digital Solutions is a two-person engineering studio dedicated to helping businesses modernize through AI, 
+           automation, and custom software. As more organizations embrace digital transformation, 
+           they need reliable technology solutions that streamline operations without sacrificing quality, performance, or scalability. 
+           We specialize in AI chatbots, business automation, full-stack development, and data analytics, delivering robust,
+           production-ready solutions that solve real business challenges and create lasting value."        
+          </p>
       </section>
 
       {/* Founders */}
