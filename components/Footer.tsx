@@ -11,7 +11,7 @@ export default function Footer() {
               <img
                 alt="R&R Logo"
                 className="h-12 w-auto"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCX-Q6Su-LPEnn-nNhgl9Bd0lB0TawW6b8DNHoFQj6tnsa2Ac1Iz4mGBg7Y6Xeib-g1rn8v00I76mbF8WTXD5uHSwAPaBfT3Q3eCNnPfU6GhcMTKpowUnMUDlScrbh44oFLeNFayRqiDRKlO9ofIGAsHyfQRoSgyVNLnEXbuOIj3IruIUeXYOVV3sfgvQ8LMJuugAeY2xU9RGox8BPIVWvfaY9YvcqtIJw4Q-ruyesFek923gbrOolBANAeK1K2qVjOXtrwtpOAID2U"
+                src="/logo.png"
               />
               <span className="font-headline text-2xl font-bold text-primary">
                 R&R Digital Solutions
