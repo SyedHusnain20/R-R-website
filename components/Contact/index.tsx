@@ -162,7 +162,7 @@ export default function Contact() {
                   <InstagramIcon className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://wa.me/923343653550`"
+                  href="https://wa.me/923343653550"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WhatsApp"
