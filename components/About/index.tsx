@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -78,14 +79,16 @@ export default function About() {
               on small phones so avatars + gap never exceed the column width */}
           <div className="grid grid-cols-2 gap-4 sm:gap-8 md:gap-12 w-full">
             <div className="text-center md:text-left">
-              <div className="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 mx-auto md:mx-0 mb-4 sm:mb-6 rounded-full border-2 border-secondary p-1 overflow-hidden bg-surface-container-low">
+              <div className="relative w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 mx-auto md:mx-0 mb-4 sm:mb-6 rounded-full border-2 border-secondary p-1 overflow-hidden bg-surface-container-low">
                 <a
                   href="/Sheroz_CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer"
+                  <Image
+                    fill
+                    sizes="(max-width: 640px) 80px, (max-width: 768px) 112px, 128px"
+                    className="object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer"
                     alt="Sheroz Pathan"
                     src="/sheroz.png"
                   />
@@ -100,14 +103,16 @@ export default function About() {
             </div>
 
             <div className="text-center md:text-left">
-              <div className="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 mx-auto md:mx-0 mb-4 sm:mb-6 rounded-full border-2 border-primary p-1 overflow-hidden bg-surface-container-low">
+              <div className="relative w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 mx-auto md:mx-0 mb-4 sm:mb-6 rounded-full border-2 border-primary p-1 overflow-hidden bg-surface-container-low">
                 <a
                   href="https://hasnainzainulabdinporfolio.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer"
+                  <Image
+                    fill
+                    sizes="(max-width: 640px) 80px, (max-width: 768px) 112px, 128px"
+                    className="object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer"
                     alt="Hasnain Zainulabdin"
                     src="/hasnain-portrait.png"
                   />
@@ -134,8 +139,10 @@ export default function About() {
         <div ref={triggerRef} className="lg:w-1/2 grid grid-cols-2 gap-3 sm:gap-4 w-full">
           <div className="space-y-3 sm:space-y-4 pt-6 sm:pt-12">
             <div className="h-40 sm:h-52 md:h-64 rounded-md bg-surface-container-high border border-outline-variant relative overflow-hidden shadow-lg shadow-black/20">
-              <img
-                className="w-full h-full object-cover opacity-60 hover:scale-105 transition-transform duration-700"
+              <Image
+                fill
+                sizes="(max-width: 1024px) 50vw, 320px"
+                className="object-cover opacity-60 hover:scale-105 transition-transform duration-700"
                 alt="Microprocessor board closeup"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxPpR5m9BirrajBlmQlW6bEGZLo-Yn0mCEHxCmC5ZrLBfwocANry5EjZt-_QyV9DAT_QnMFGi2nsxizwgXfz4t11iryDhEJ3yec10bhkKH00-LbcrQe2YGDfB6n5k6TfDthHyvL4oq1M1drnZA1cnWvB3d5wUFxxN-n4FShIPv1UUPjx1NlmIfgOO0i8q4qiAlmhLYI6Aky0y_nNe8wPibY7TtI4wgYSeYEPgn-k2g7p9at2ZcCZs68z8JJFDgoPT83yksWOx_0ohk"
               />
@@ -160,8 +167,10 @@ export default function About() {
               </p>
             </div>
             <div className="h-40 sm:h-52 md:h-64 rounded-md bg-surface-container-high border border-outline-variant relative overflow-hidden shadow-lg shadow-black/20">
-              <img
-                className="w-full h-full object-cover opacity-60 hover:scale-105 transition-transform duration-700"
+              <Image
+                fill
+                sizes="(max-width: 1024px) 50vw, 320px"
+                className="object-cover opacity-60 hover:scale-105 transition-transform duration-700"
                 alt="Architect workspace displays"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAL26Vjzu5gYb4XJxgriEiXUAgPimcF0t8Qtqgr1bhl2SZ_XIu0_oNtTKmcTovBus5nnTFwS-rJ8JrOFueGRJi7_rd5fugK7F5G8OGQuYE59qhYDHaV_j0clE4HrqdAh65luTmaknmSLXPclgkqeGVMNArOMRjUQRoLx33jgw7f2Nv3qDYZSNq_jMi3JtZKymCG91GJ64fnMJYwbvqCwy-Wmn7ltGV5vY5-JNEdCrHlCK08z7a3VzZVbTaiExXwkhTAoOg3ox0YEgbB"
               />
