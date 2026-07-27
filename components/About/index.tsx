@@ -21,7 +21,7 @@ export default function About() {
         deploymentsRef.current,
         { textContent: "0" },
         {
-          textContent: "200",
+          textContent: "15",
           duration: 2.5,
           ease: "power2.out",
           snap: { textContent: 1 },
