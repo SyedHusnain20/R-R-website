@@ -79,8 +79,7 @@ export default function Hero() {
 
           <h1
             ref={titleRef}
-            className="font-headline text-4xl sm:text-5xl md:text-6xl lg:text-[72px] leading-none uppercase font-bold tracking-tight mb-6"
-          >
+            className="font-hero text-4xl sm:text-5xl md:text-6xl lg:text-[64px] leading-[1.05] uppercase font-bold tracking-normal mb-6"            >
             Where <span className="text-primary">Intelligence</span> <br className="hidden sm:inline" />
             Meets <span className="text-secondary">Innovation</span>
           </h1>
