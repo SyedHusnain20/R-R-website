@@ -16,7 +16,7 @@ interface ChatMessage {
   content: string;
 }
 
-const GROQ_MODEL = "llama-3.3-70b-versatile";
+const GROQ_MODEL = "openai/gpt-oss-120b";
 const MAX_HISTORY_MESSAGES = 8; // keep the request small & fast
 
 const SYSTEM_PROMPT_HEADER = `You are Naini, the R&R Digital Solutions website assistant.
