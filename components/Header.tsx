@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -41,10 +42,13 @@ export default function Header() {
         )}
       >
         <Link href="/" className="flex items-center gap-2 sm:gap-3 shrink-0">
-          <img
-            alt="R&R Logo"
+          <Image
+            alt="R&R Digital Solutions logo — teal and gold emblem"
             className="h-8 sm:h-10 w-auto"
             src="/logo.png"
+            width={40}
+            height={40}
+            priority
           />
           <span className="font-headline font-bold text-base sm:text-lg lg:text-xl tracking-tighter text-primary whitespace-nowrap">
             R&R Digital Solutions

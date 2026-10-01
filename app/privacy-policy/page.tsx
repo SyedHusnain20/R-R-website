@@ -2,8 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | R&R Digital Solutions",
-  description: "How R&R Digital Solutions collects, uses, and protects your information.",
+  title: "Privacy Policy",
+  description:
+    "How R&R Digital Solutions collects, uses, and protects your personal information. Read our full data privacy practices.",
+  alternates: {
+    canonical: "https://rrdigitalsolutions.org/privacy-policy",
+  },
+  openGraph: {
+    title: "Privacy Policy — R&R Digital Solutions",
+    description: "How R&R Digital Solutions collects, uses, and protects your information.",
+    url: "https://rrdigitalsolutions.org/privacy-policy",
+    type: "website",
+  },
 };
 
 const h2 = "font-headline text-xl sm:text-2xl uppercase font-bold tracking-tight text-on-surface mt-12 mb-4";

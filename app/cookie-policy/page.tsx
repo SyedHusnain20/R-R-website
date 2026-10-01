@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy | R&R Digital Solutions",
-  description: "How R&R Digital Solutions uses cookies and similar technologies.",
+  title: "Cookie Policy",
+  description:
+    "How R&R Digital Solutions uses cookies and similar tracking technologies. Learn about our cookie practices and your control options.",
+  alternates: {
+    canonical: "https://rrdigitalsolutions.org/cookie-policy",
+  },
+  openGraph: {
+    title: "Cookie Policy — R&R Digital Solutions",
+    description: "How R&R Digital Solutions uses cookies and similar technologies.",
+    url: "https://rrdigitalsolutions.org/cookie-policy",
+    type: "website",
+  },
 };
 
 const h2 = "font-headline text-xl sm:text-2xl uppercase font-bold tracking-tight text-on-surface mt-12 mb-4";

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 import {
   ArrowUpRight,
   CheckCircle2,
@@ -155,10 +156,12 @@ export default function Projects() {
             {/* Visual Aspect Ratio Container */}
             <div className="aspect-video relative overflow-hidden bg-surface-container-lowest">
               {project.img ? (
-                <img
+                <Image
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  alt={project.title}
+                  alt={`${project.title} — ${project.tag} case study by R&R Digital Solutions`}
                   src={project.img}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               ) : (
                 <div className="circuit-bg absolute inset-0 flex items-center justify-center gap-8 transition-transform duration-700 group-hover:scale-105">

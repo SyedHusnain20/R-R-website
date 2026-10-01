@@ -89,7 +89,7 @@ export default function About() {
                     fill
                     sizes="(max-width: 640px) 80px, (max-width: 768px) 112px, 128px"
                     className="object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer"
-                    alt="Sheroz Pathan"
+                    alt="Sheroz Khan — Founder of R&R Digital Solutions, Chief Strategy/Finance Officer"
                     src="/sheroz.png"
                   />
                 </a>
@@ -113,7 +113,7 @@ export default function About() {
                     fill
                     sizes="(max-width: 640px) 80px, (max-width: 768px) 112px, 128px"
                     className="object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer"
-                    alt="Hasnain Zainulabdin"
+                    alt="Hasnain Zainulabdin — Co-Founder of R&R Digital Solutions, Chief Technology/Production Officer"
                     src="/hasnain-portrait.png"
                   />
                 </a>
@@ -143,7 +143,7 @@ export default function About() {
                 fill
                 sizes="(max-width: 1024px) 50vw, 320px"
                 className="object-cover opacity-60 hover:scale-105 transition-transform duration-700"
-                alt="Microprocessor board closeup"
+                alt="Microprocessor circuit board closeup representing R&R Digital Solutions hardware and embedded systems expertise"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxPpR5m9BirrajBlmQlW6bEGZLo-Yn0mCEHxCmC5ZrLBfwocANry5EjZt-_QyV9DAT_QnMFGi2nsxizwgXfz4t11iryDhEJ3yec10bhkKH00-LbcrQe2YGDfB6n5k6TfDthHyvL4oq1M1drnZA1cnWvB3d5wUFxxN-n4FShIPv1UUPjx1NlmIfgOO0i8q4qiAlmhLYI6Aky0y_nNe8wPibY7TtI4wgYSeYEPgn-k2g7p9at2ZcCZs68z8JJFDgoPT83yksWOx_0ohk"
               />
             </div>
@@ -171,7 +171,7 @@ export default function About() {
                 fill
                 sizes="(max-width: 1024px) 50vw, 320px"
                 className="object-cover opacity-60 hover:scale-105 transition-transform duration-700"
-                alt="Architect workspace displays"
+                alt="Software architect workspace with multiple monitors displaying code and dashboards at R&R Digital Solutions"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAL26Vjzu5gYb4XJxgriEiXUAgPimcF0t8Qtqgr1bhl2SZ_XIu0_oNtTKmcTovBus5nnTFwS-rJ8JrOFueGRJi7_rd5fugK7F5G8OGQuYE59qhYDHaV_j0clE4HrqdAh65luTmaknmSLXPclgkqeGVMNArOMRjUQRoLx33jgw7f2Nv3qDYZSNq_jMi3JtZKymCG91GJ64fnMJYwbvqCwy-Wmn7ltGV5vY5-JNEdCrHlCK08z7a3VzZVbTaiExXwkhTAoOg3ox0YEgbB"
               />
             </div>

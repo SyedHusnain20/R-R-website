@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | R&R Digital Solutions",
-  description: "The terms and conditions governing use of the R&R Digital Solutions website and services.",
+  title: "Terms & Conditions",
+  description:
+    "The terms and conditions governing use of the R&R Digital Solutions website and professional services engagement.",
+  alternates: {
+    canonical: "https://rrdigitalsolutions.org/terms",
+  },
+  openGraph: {
+    title: "Terms & Conditions — R&R Digital Solutions",
+    description: "The terms and conditions governing use of the R&R Digital Solutions website and services.",
+    url: "https://rrdigitalsolutions.org/terms",
+    type: "website",
+  },
 };
 
 const h2 = "font-headline text-xl sm:text-2xl uppercase font-bold tracking-tight text-on-surface mt-12 mb-4";

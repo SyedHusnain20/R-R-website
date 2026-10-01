@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { MapPin, Mail, Loader2, CheckCircle, AlertTriangle } from "lucide-react";
@@ -72,7 +73,7 @@ export default function Contact() {
           message: res.message || "An unexpected error occurred.",
         });
       }
-    } catch (_e) {
+    } catch {
       setSubmitResult({
         success: false,
         message: "Network error occurred. Please try again.",
@@ -175,11 +176,13 @@ export default function Contact() {
           </div>
 
           {/* Styled Location Map */}
-          <div className="mt-12 h-64 rounded-md overflow-hidden border border-outline-variant shadow-lg shadow-black/30 bg-surface-container-low">
-            <img
-              className="w-full h-full object-cover opacity-85 hover:scale-[1.02] transition-transform duration-700"
-              alt="Headquarters map of Hyderabad, Sindh, Pakistan"
+          <div className="mt-12 h-64 rounded-md overflow-hidden border border-outline-variant shadow-lg shadow-black/30 bg-surface-container-low relative">
+            <Image
+              className="object-cover opacity-85 hover:scale-[1.02] transition-transform duration-700"
+              alt="Map showing R&R Digital Solutions headquarters location in Hyderabad, Sindh, Pakistan"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuDexbWPPYm3miTi5L2cdSw6rtfutjHD4RVAUGQyyyBP21LdeNwueB7cLWGT9l3eBfSMmeQr3lzw75Y8H0aiY4rFSZNjVOvK0tHLAq3DozxsemZyRi6phfTKNUcBm6sCIU79Zf1E8z1JMnlqcHctiKiLukG4CyjHZv0V1GUi_j-PHe4inOgg031iW5ulI1FR5Q90W6gnpLkmg9EcF_qIOP-9XMfscxoe0UgAu-4yEtu2psxoQLm1AuaOhSIH2bcz-StbZ4_CTsD65wPg"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>

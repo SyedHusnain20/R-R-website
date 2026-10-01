@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Share2, Network, Users } from "lucide-react";
 
 export default function Footer() {
@@ -8,10 +9,12 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start mb-20 gap-12">
           <div className="max-w-sm">
             <div className="flex items-center gap-3 mb-6">
-              <img
-                alt="R&R Logo"
+              <Image
+                alt="R&R Digital Solutions logo — AI automation and custom software engineering"
                 className="h-12 w-auto"
                 src="/logo.png"
+                width={48}
+                height={48}
               />
               <span className="font-headline text-2xl font-bold text-primary">
                 R&R Digital Solutions

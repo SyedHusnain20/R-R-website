@@ -1,11 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Target, ShieldCheck, Rocket, Users } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us | R&R Digital Solutions",
+  title: "About Us — Meet the Founders",
   description:
-    "Meet the founders of R&R Digital Solutions — an engineering-first digital agency building AI automation, custom software, and data analytics solutions.",
+    "Meet the founders of R&R Digital Solutions — Sheroz Khan and Hasnain Zainulabdin. An engineering-first digital agency building AI automation, custom chatbots, and data analytics solutions from Hyderabad, Pakistan.",
+  alternates: {
+    canonical: "https://rrdigitalsolutions.org/about",
+  },
+  openGraph: {
+    title: "About Us — Meet the R&R Digital Solutions Founders",
+    description:
+      "Meet the founders of R&R Digital Solutions — an engineering-first digital agency building AI automation, custom software, and data analytics solutions.",
+    url: "https://rrdigitalsolutions.org/about",
+    type: "website",
+  },
 };
 
 export default function AboutPage() {
@@ -84,11 +95,13 @@ export default function AboutPage() {
                 className="border border-outline-variant bg-surface-container-low rounded-sm p-8 flex flex-col items-start"
               >
                 <div
-                  className={`w-24 h-24 mb-6 rounded-full border-2 ${ringClass} p-1 overflow-hidden bg-surface-container-low`}
+                  className={`relative w-24 h-24 mb-6 rounded-full border-2 ${ringClass} p-1 overflow-hidden bg-surface-container-low`}
                 >
-                  <img
-                    className="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500"
-                    alt={founder.name}
+                  <Image
+                    fill
+                    sizes="96px"
+                    className="object-cover rounded-full grayscale hover:grayscale-0 transition-all duration-500"
+                    alt={`${founder.name} — ${founder.role} at R&R Digital Solutions`}
                     src={founder.img}
                   />
                 </div>
